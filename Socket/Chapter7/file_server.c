@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 		printf("Usage : %s <port>\n", argv[0]);
 		exit(1);
 	}
-	fp=fopen("file_server.c","rb");
+	fp=fopen("send","rb");
 	serv_sd=socket(PF_INET,SOCK_STREAM,0);
 
 	memset(&serv_adr,0,sizeof(serv_adr));
