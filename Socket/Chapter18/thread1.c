@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 		return -1;
 	};
 	sleep(2); puts("end of main");
+//	free(thr_ret);
 	return 0;
 }
 void* thread_main(void *arg)
